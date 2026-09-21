@@ -1,0 +1,3 @@
+2026-09-21: new sleep loop candidate from Besky (d07e747f...). Saved as archive + besky-sleep-loop-v3-candidate.mp4. Live timer still uses besky-sleep-loop.mp4 until swap requested.
+2026-09-21: awake idle loop (blink/wait for input) from Besky — archive/besky-awake-idle-20260921-0602.mp4 + /workspace/besky-awake-idle-candidate.mp4. Live still uses besky-awake.jpg until swap. Videos always muted.
+2026-09-21: wake-with-alarm clip from Besky (alarm + speech). Archive besky-wake-alarm-20260921-0608.mp4 + /workspace/besky-wake-alarm-candidate.mp4. EXCEPTION: play with audio (respect app mute toggle). Sleep/idle loops stay always muted.
