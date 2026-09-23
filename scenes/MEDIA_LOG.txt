@@ -1,3 +1,10 @@
 2026-09-21: new sleep loop candidate from Besky (d07e747f...). Saved as archive + besky-sleep-loop-v3-candidate.mp4. Live timer still uses besky-sleep-loop.mp4 until swap requested.
 2026-09-21: awake idle loop (blink/wait for input) from Besky — archive/besky-awake-idle-20260921-0602.mp4 + /workspace/besky-awake-idle-candidate.mp4. Live still uses besky-awake.jpg until swap. Videos always muted.
 2026-09-21: wake-with-alarm clip from Besky (alarm + speech). Archive besky-wake-alarm-20260921-0608.mp4 + /workspace/besky-wake-alarm-candidate.mp4. EXCEPTION: play with audio (respect app mute toggle). Sleep/idle loops stay always muted.
+
+2026-09-23: polished four-clip set from Besky. Live scenes replaced:
+  besky-awake-idle.mp4 (1168x784, ~15s muted loop)
+  besky-fall-asleep.mp4 NEW (1168x784, ~6s muted once — setting alarm / settling in)
+  besky-sleep-loop.mp4 (1168x784, ~15s muted loop)
+  besky-wake.mp4 (2144x1440 ~same aspect, ~10s; audio respects mute toggle)
+Prior live mp4s archived as *-20260923-1650.mp4. Posters regenerated (awake frame0; sleeping @1s of sleep-loop). SCENE_ASPECT → 1168/784. Flow: home → fallingAsleep → running → waking → home. Mute: idle/fall/sleep always muted; wake only respects app mute.
